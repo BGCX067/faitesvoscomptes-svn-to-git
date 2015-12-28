@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondlistview"
+    >
+
+    
+
+	<TextView android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" 
+	android:id="@+id/solde" 
+	    android:textStyle="bold"
+	android:text="Votre solde courant : " 
+	android:textColor="#FF202020" android:background="@drawable/fondandro" android:textSize="22px" android:gravity="center_vertical|center_horizontal" android:layout_gravity="center_vertical|center_horizontal">
+	</TextView>
+	<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textSize="12px" android:background="@drawable/fondhistocompte"/>
+    
+    <ListView
+        android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent"
+    	android:id="@android:id/list" android:cacheColorHint="#00000000"/>
+    
+
+
+
+
+
+</LinearLayout>

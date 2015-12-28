@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/fondandro"
+  >
+  
+  <TextView android:background="@drawable/fondmontant" android:layout_width="fill_parent"  android:layout_height="wrap_content"  android:inputType="number|numberSigned|numberDecimal"/>
+  <EditText
+    	android:layout_height="wrap_content"
+  		android:layout_width="fill_parent"
+  		android:id="@+id/edtRecMontant"
+  	android:inputType="number|numberSigned|numberDecimal"/>
+  <TextView android:background="@drawable/fondraison" android:layout_width="fill_parent"  android:layout_height="wrap_content"  />
+  <EditText
+    	android:layout_height="wrap_content"
+  		android:layout_width="fill_parent"
+  		android:id="@+id/edtRecRaison"
+  	/>
+	<TextView  android:layout_width="fill_parent"  android:layout_height="wrap_content"   android:background="@drawable/fonddate"/>
+  <EditText
+    	android:layout_height="wrap_content"
+  		android:layout_width="fill_parent"
+  		android:id="@+id/edtrecjourDuMois"
+  	android:inputType="number"/>
+  
+<TextView  android:layout_width="fill_parent"  android:layout_height="4px"  android:text="   "  android:background="#FF808080"/>
+  
+  <RadioGroup android:orientation="horizontal" android:id="@+id/RadioGroup02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<RadioButton android:id="@+id/recCred" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Crédit (+)" android:checked="false" android:textColor="#FF000000"></RadioButton>
+<RadioButton android:id="@+id/recDeb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Débit (-)" android:checked="true" android:textColor="#FF000000"></RadioButton>
+</RadioGroup>
+<TextView  android:layout_width="fill_parent"  android:layout_height="4px"  android:text="   "  android:background="#FF808080"/>  
+  
+  <LinearLayout 
+    android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+  <Button 
+  	android:layout_height="wrap_content"
+  	android:layout_width="100px"
+  	android:text="Save" android:id="@+id/recSave"></Button>
+  
+  <Button 
+  	android:layout_height="wrap_content"
+  	android:layout_width="wrap_content"
+    android:id="@+id/recAddCurrent"></Button>	
+  	
+  	</LinearLayout>
+
+  
+
+
+
+    <ListView
+        android:layout_width="fill_parent" 
+    	android:layout_height="fill_parent"
+    	android:id="@android:id/list" 
+    	android:background="@drawable/fondlistview" android:cacheColorHint="#00000000"/>
+    	
+</LinearLayout>

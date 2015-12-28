@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lng">FR-Langues</string>
+	
+	
+	<string name="app_name">Mes comptes</string>
+	
+	<string name="yourCurrentBalance">Votre solde courant : </string>
+	
+	<string name="intentAddAmount">Montant: </string>
+	<string name="intentAddReason">Raison : </string>
+	
+	<string name="radioIncome">Crédit (+)</string>
+	<string name="radioIOutgoings">Débit (-)</string>
+	
+	<string name="menuClearAll">Supprimer tout</string>
+	<string name="menuAdd">Ajouter</string>
+	<string name="onSelectMenuSupp">Supprimer</string>
+	<string name="onSelectMenuModif">Modifier</string>
+	<string name="modifyExpense">Modifier votre donnée</string>
+	
+	
+	<string name="parametreName">Paramètres</string>
+	<string name="recurrentName">Récurrent</string>
+	
+	
+	<string name="notificationTitle">Application Mes Compte</string>
+	<string name="currentBalance">Solde courant : </string>
+	
+	
+	<string name="recback">Retour</string>
+	<string name="DayOfTheMonth">Quel jour du mois ?</string>
+	<string name="addToAccount">Ajouter tout au compte</string>
+	<string name="DateFormate">dd-MM-yyyy</string>
+	
+	
+	<string name="addToaccountsingle">Ajouter celui ci au compte</string>
+	
+	<string name="forcerLangage">Forcer langage ?</string>
+	<string name="password">Mot de passe ?</string>
+	<string name="typepassword">Taper le MDP</string>
+	<string name="retypepassword">Retaper le MDP</string>
+	<string name="savesetting">Sauver</string>
+	<string name="autorisernotif">Autoriser la notification ?</string>
+	
+	<string name="txtDevise">Devise</string>
+	<string name="toastAdded">La transaction suivante a été ajoutée</string>
+	<string name="seuilnotif">Seuil notif?</string>
+	
+	<string name="missingSD">Vous devez avoir une carte SD dans votre apareil.</string>
+	<string name="savedSD">Enregistré sur votre carte SD :\n/sdcard/export</string>
+	
+	<string name="pleaseRestartApp">Plase restart the application\nin order to display changes...</string>
+</resources>

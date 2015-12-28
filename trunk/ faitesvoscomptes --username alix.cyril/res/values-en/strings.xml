@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lng">EN-Langages</string>
+    
+	<string name="app_name">Watch your money</string>
+	
+	<string name="yourCurrentBalance">Your current balance is: </string>
+	
+	<string name="intentAddAmount">Amount : </string>
+	<string name="intentAddReason">Reason: </string>
+	
+	<string name="radioIncome">Income (+)</string>
+	<string name="radioIOutgoings">Outgoings (-)</string>
+	
+	<string name="menuClearAll">Clear all</string>
+	<string name="menuAdd">Add transaction</string>
+	<string name="onSelectMenuSupp">Delete</string>
+	<string name="onSelectMenuModif">Modify</string>
+	<string name="modifyExpense">Modify your expense</string>
+	
+	
+	<string name="notificationTitle">Watch Your Pennies</string>
+	<string name="currentBalance">Current balance: </string>
+	
+	<string name="parametreName">Settings</string>
+	<string name="recurrentName">Recurrent</string>
+	
+	<string name="recback">Back</string>
+	<string name="DayOfTheMonth">Which day of the month ?</string>
+	<string name="addToAccount">Add everything to account</string>
+	<string name="DateFormate">MM-dd-yyyy</string>
+	
+	<string name="addToaccountsingle">Add this one to your account</string>
+	
+	<string name="forcerLangage">Force language ?</string>
+	<string name="password">Password ?</string>
+	<string name="typepassword">Type password</string>
+	<string name="retypepassword">Retype password</string>
+	<string name="savesetting">Save</string>
+	<string name="autorisernotif">Enable notification ?</string>
+	
+	<string name="txtDevise">Currency</string>
+	<string name="toastAdded">The following transaction has been added</string>
+	<string name="seuilnotif">Notif threshold?</string>
+	
+	<string name="missingSD">You need an SD card in your phone.</string>
+	<string name="savedSD">Saved on your SD card at :\n/sdcard/export</string>
+	
+	<string name="pleaseRestartApp">Merci de relancer l'application afin de\nprendre en compte les changements...</string>
+</resources>

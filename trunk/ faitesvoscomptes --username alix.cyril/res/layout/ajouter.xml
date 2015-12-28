@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/fondlistview"
+  >
+  
+  
+  
+  
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@drawable/fondmontant" android:textColor="#FFFFFFFF"></TextView>
+    <EditText
+   	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="number|numberSigned|numberDecimal"
+    	android:id="@+id/montant"
+    />
+
+    <TextView android:layout_height="wrap_content" android:background="@drawable/fondraison" android:layout_width="fill_parent" android:textColor="#FFFFFFFF"></TextView>
+    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/raison" />
+        
+  
+
+
+<RadioGroup android:id="@+id/RadioGroup01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<RadioButton android:id="@+id/RadioButton01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Crédit (+)" android:checked="false" android:textColor="#FF000000"></RadioButton>
+<RadioButton android:id="@+id/RadioButton02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Débit (-)" android:checked="true" android:textColor="#FF000000"></RadioButton>
+</RadioGroup>
+
+
+<Button android:layout_height="wrap_content" android:id="@+id/okAjout" android:text="Ajouter" android:layout_width="fill_parent"></Button>
+
+
+
+
+</LinearLayout>
